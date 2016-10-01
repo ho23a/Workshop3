@@ -1,0 +1,29 @@
+body {
+  padding-top: 60px;
+}
+.navbar-brand {
+  font-size: 14px;
+}
+.twitter-search {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  box-shadow: none !important;
+}
+.search-button {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-left: none;
+}
+.profile-button {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.post-buttons {
+  color: grey;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.post-left-button {
+  color:grey;
+  margin-right: 25px;
+}

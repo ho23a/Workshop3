@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang='en>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- The above 3 meta tags *must* come first in the head;
+    any other head content must come *after* these tags -->
+    <title>Twitter</title>
+
+    <!-- Bootstrap's CSS -->
+    <link href='css/bootstrap.min.css' rel='stylesheet'>
+    <!-- Custom CSS -->
+    <link href='css/twitter.css' rel='stylesheet'>
+  </head>
+  <body>
+    <!-- Navigation bar --->
+    <nav class='navbar navbar-default navbar-fixed-top'>
+      <div class='container'>
+        <div class='navbar-header'>
+          <!-- home glyphicon -->
+          <a class='navbar-brand' href='#'>
+            <span class='glyphicon glyphicon-home'></span> Home
+          </a>
+        </div>
+        <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
+          <ul class='nav navbar-nav navbar-left'>
+            <!-- left aligned items -->
+            <li><a href='#'>
+              <span class='glyphicon glyphicon-flash'></span> Moments
+            </a></li>
+            <li><a href='#'>
+              <span class='glyphicon glyphicon-bell'></span> Notifications
+            </a></li>
+            <li><a href='#'>
+              <span class='glyphicon glyphicon-envelope'></span> Messages
+            </a></li>
+          </ul>
+          <form class='navbar-form navbar-right' role='search'>
+            <!-- right aligned items-->
+            <div class='input-group'>
+              <input type='text' class='form-control twitter-search'
+                placeholder='Search Twitter'>
+              <span class='input-group-btn'>
+                <button type='submit' class='btn btn-default search-button'>
+                  <span class='glyphicon glyphicon-search'></span>
+                </button>
+              </span>
+            </div>
+            <button type='button' class='btn btn-default profile-button'>
+              PIC
+            </button>
+            <button type='button' class='btn btn-default'>
+              <span class='glyphicon glyphicon-edit'></span> Tweet
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class='container'>
+      <!-- Main Post -->
+      <div class='row'>
+        <div class='col-md-6 col-md-offset-3'>
+          <div class='panel panel-default'>
+            <div class='panel-body'>
+              <!-- Post metadata -->
+              <div class='row'>
+                <div class='col-md-8'>
+                  <div class='media'>
+                    <div class='media-left media-top'>
+                      PIC
+                    </div>
+                    <div class='media-body'>
+                      <a href='#'>NASA</a>
+                      <span class='glyphicon glyphicon-check'></span>
+                      <br>@NASA
+                    </div>
+                  </div>
+                </div>
+                <div class='col-md-4'>
+                  <div class='btn-group pull-right' role='group'>
+                    <button type='button' class='btn btn-default'>
+                      <span class='glyphicon glyphicon-asterisk'></span>
+                    </button>
+                    <button type='button' class='btn btn-default'>
+                      Following
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- Post content -->
+              <div class='row'>
+                <div class='col-md-12'>
+                  This spiral galaxy hosts a superassive black hole that's also super-hungry:
+                  <a href='#'>http://go.nasa.gov/1Rp6V2w</a> <a href='#'>@NASA_Hubble</a>
+                  <img src='img/nasa.jpg' width='100%' />
+                </div>
+              </div>
+              <hr>
+              <div class='row'>
+                <div class='col-md-2'>
+                  Retweets<br>1,747
+                </div>
+                <div class='col-md-2'>
+                  Likes<br>2,911
+                </div>
+                <div class='col-md-8'>
+                  <ul class='list-inline'>
+                    <li><a href='#'>Pic</a></li>
+                    <li><a href='#'>Pic</a></li>
+                    <li><a href='#'>Pic</a></li>
+                    <li><a href='#'>Pic</a></li>
+                    <li><a href='#'>Pic</a></li>
+                    <li><a href='#'>Pic</a></li>
+                    <li><a href='#'>Pic</a></li>
+                  </ul>
+                </div>
+              </div>
+              <hr>
+              <div class='row'>
+                <div class='col-md-12'>
+                  12:44 PM - 8 Jan 2016<br>
+                  <ul class='list-inline'>
+                    <li>
+                      <a href='#'>
+                        <span class='glyphicon glyphicon-arrow-left post-left-button'></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href='#'>
+                        <span class='glyphicon glyphicon-refresh post-buttons'></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href='#'>
+                        <span class='glyphicon glyphicon-heart post-buttons'></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href='#'>
+                        <span class='glyphicon glyphicon-option-horizontal post-buttons'></span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class='panel-footer'>
+              <div class='media'>
+                <div class='media-left media-top'>
+                  PIC
+                </div>
+                <div class='media-body'>
+                  <input type='text' class='form-control'
+                    placeholder='Reply to @NASA @NASA_Hubble'>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below),
+      or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</httml>
